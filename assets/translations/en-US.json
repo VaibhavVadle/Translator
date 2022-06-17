@@ -1,0 +1,9 @@
+{
+  "home_description": "Flutter is Google's free and open-source UI framework for creating native mobile applications. Released in 2017, Flutter allows developers to build mobile applications with a single codebase and programming language. This capability makes building both iOS and Android apps simpler and faster.",
+  "home_btn_text": "Switch Language",
+  "language_select": "Select a Language:",
+  "language_hindi": "Hindi",
+  "language_portuguese": "Portuguese",
+  "language_english": "English",
+  "language_german": "German"
+}
