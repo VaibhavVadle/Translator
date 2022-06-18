@@ -14,6 +14,7 @@ class _LanguagesState extends State<Languages> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.grey[700],
         title: Text('Languages'),
       ),
       body: Center(
@@ -34,6 +35,7 @@ class _LanguagesState extends State<Languages> {
                   onPressed: (){
                   var locale =Locale('hi','IN');
                   Get.updateLocale(locale);
+                  Navigator.pop(context);
                   },
                   child: Text('language_hindi'.tr,style: TextStyle(fontSize: 24),)),
             ),
@@ -47,6 +49,7 @@ class _LanguagesState extends State<Languages> {
                   onPressed: (){
                     var locale =Locale('pt','PT');
                     Get.updateLocale(locale);
+                    Navigator.pop(context);
                   },
                   child: Text('language_portuguese'.tr,style: TextStyle(fontSize: 24),)),
             ),
@@ -60,6 +63,7 @@ class _LanguagesState extends State<Languages> {
                   onPressed: (){
                     var locale =Locale('en','US');
                     Get.updateLocale(locale);
+                    Navigator.pop(context);
                   },
                   child: Text('language_english'.tr,style: TextStyle(fontSize: 24),)),
             ),
@@ -73,6 +77,7 @@ class _LanguagesState extends State<Languages> {
                   onPressed: (){
                     var locale =Locale('de','DE');
                     Get.updateLocale(locale);
+                    Navigator.pop(context);
                   },
                   child: Text('language_german'.tr,style: TextStyle(fontSize: 24),)),
             ),
